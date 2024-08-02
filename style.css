@@ -9,7 +9,7 @@ body{
 header{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0.1),rgba(14, 25, 32,0.2),rgba(14, 25, 32,0.5),rgba(14, 25, 32,1)), url("image/me.png");
+    background: linear-gradient(rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0.1),rgba(14, 25, 32,0.2),rgba(14, 25, 32,0.5),rgba(14, 25, 32,1)), url("me.png");
     background-size: cover;
 }
 nav{
@@ -57,7 +57,7 @@ nav{
     width: 80px;
     margin-top: 2px;
     margin-left: 10px;
-    background-image: url(image/India.png);
+    background-image: url(India.png);
     background-size: cover;
 }
 #h3{
@@ -88,7 +88,7 @@ nav{
     height: 400px;
     width: 300px;
     margin-left: 30px;
-    background: linear-gradient(rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0.5),rgba(14, 25, 32,1)), url(image/about-profile.jpg);
+    background: linear-gradient(rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0),rgba(14, 25, 32,0.5),rgba(14, 25, 32,1)), url(about-profile.jpg);
     background-size: cover;
     border-radius: 10px;
 }
