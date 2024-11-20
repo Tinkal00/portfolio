@@ -20,3 +20,11 @@ projects.addEventListener("click", ()=>{
     educationInfo.style.visibility="hidden";
     skillsInfo.style.visibility="hidden";
 })
+
+document.getElementById("submit-btn").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.querySelectorAll("#feedback input, #feedback textarea").forEach(field => {
+        field.value = "";
+    });
+    location.reload(); 
+});
